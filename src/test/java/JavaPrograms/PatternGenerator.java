@@ -21,6 +21,7 @@ public class PatternGenerator {
 			}
 			System.out.println();
 			
+			
 		}
 		//sc.close();
 	}
