@@ -44,16 +44,16 @@ public class MultipleWindowsHandleNewWay {
 						firstchild= h;
 						
 						driver.switchTo().window(h);
-                        break;
+                        break; 
 				     
 					}
 					
 				}
 				
 				
-				   wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[text()='NIPRAM NATIONAL Mi A series 80cm 32 inch HD Ready LED Smart Googl...']")));
+				    wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[text()='NIPRAM NATIONAL Mi A series 80cm 32 inch HD Ready LED Smart Googl...']")));
 					WebElement element = driver.findElement(By.xpath("//a[text()='NIPRAM NATIONAL Mi A series 80cm 32 inch HD Ready LED Smart Googl...']"));
-			         ac.scrollToElement(element).perform();
+			        ac.scrollToElement(element).perform();
 					element.click();
 					
 				
